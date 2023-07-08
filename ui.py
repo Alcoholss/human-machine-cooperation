@@ -1,4 +1,6 @@
-# coding=gbk
+#!/usr/bin/env python3
+# -*- coding: iso-8859-15 -*-
+
 import communication_control_module.animation as ccm_ani
 import communication_control_module.detection as ccm_odm
 import numpy as np
