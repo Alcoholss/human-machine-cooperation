@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-# -*- coding: iso-8859-15 -*-
+# coding=GBK
+
 
 import communication_control_module.animation as ccm_ani
 import communication_control_module.detection as ccm_odm
@@ -37,7 +38,7 @@ def cmp(result):
 class Page(object):
     def __init__(self, master=None):
         self.root = master
-        root.title('人机协同智能平台')
+        root.title("人机协同智能平台")
         self.task_flag = 0
         self.init_root()
 
